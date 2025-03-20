@@ -1,4 +1,4 @@
-package org.howard.edu.lsp.assignment2.src;
+package org.howard.edu.lsp.assignment2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.io.*;
 public class pipeline {
     
     public static void main(String[] args) {
-		String inputFilePath = "Spring_2025/src/org/howard/edu/lsp/assignment2/data/products.csv";
-        String outputFilePath = "Spring_2025/src/org/howard/edu/lsp/assignment2/data/transformed_products.csv";
+		String inputFilePath = "Spring_2025/data/products.csv";
+        String outputFilePath = "Spring_2025/data/transformed_products.csv";
 
         List<String[]> transformedData = new ArrayList<>();
 

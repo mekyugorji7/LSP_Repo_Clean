@@ -21,7 +21,7 @@ class WordProcessor {
     public List<String> findLongestWords() {
         List<String> longestWords = new ArrayList<>();
         if (sentence == null || sentence.trim().isEmpty()) {
-            return longestWords; // Return empty list if input is empty or contains no words
+            return longestWords; 
         }
 
         String[] words = sentence.split("\\s+"); // Handle multiple whitespaces
@@ -40,16 +40,13 @@ class WordProcessor {
     }
 }
 
-/**
- * The WordProcessorDriver class tests the functionality of the WordProcessor class.
- */
 public class WordProcessorDriver {
     /**
      * Main method to run test cases for WordProcessor.
      * @param args Command line arguments (not used).
      */
     public static void main(String[] args) {
-        
+
         // Test case 1: Sentence with a single longest word
         WordProcessor wp4 = new WordProcessor("This is a test with amazing results amazing achievements");
         List<String> longestWords4 = wp4.findLongestWords();
@@ -63,12 +60,12 @@ public class WordProcessorDriver {
         // Test case 5: Sentence with single character words
         WordProcessor wp5 = new WordProcessor("A B C D E");
         List<String> longestWords5 = wp5.findLongestWords();
-        System.out.println("Test 5 - Longest words: " + longestWords5);  
+        System.out.println("Test 3 - Longest words: " + longestWords5);  
 
         // Test case 6: Empty string input
         WordProcessor wp6 = new WordProcessor("");
         List<String> longestWords6 = wp6.findLongestWords();
-        System.out.println("Test 6 - Longest words: " + longestWords6);  
+        System.out.println("Test 4 - Longest words: " + longestWords6);  
     }
 }
 

@@ -50,7 +50,7 @@ class VotingMachine {
     }
 }
 
-// VotingMachineTest class to test VotingMachine
+
 public class VotingMachineTest {
     /**
      * Main method to test the VotingMachine functionality.

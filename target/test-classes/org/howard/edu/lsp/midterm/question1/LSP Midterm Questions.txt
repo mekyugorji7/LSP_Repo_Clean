@@ -1,0 +1,56 @@
+
+**In case Word Doc does not open**
+
+LSP Midterm Question 1
+
+Part 1: Identify Classes
+
+Book
+- Represents individual books in the library.
+- Tracks essential details like title, author, ISBN, and availability status.
+- Needed to manage the collection and facilitate borrowing/returning.
+Member
+- Represents library members who borrow books.
+- Tracks the number of books borrowed and enforces borrowing limits of 3 books at a time.
+- Ensures members follow borrowing policies.
+Librarian
+- Manages the library collection.
+- Can add and remove books as necessary.
+- Provides oversight of borrowed and available books.
+LibrarySystem
+- Manages all interactions within the library.
+- Handles book borrowing, returning, and status tracking.
+- Provides librarians with system-wide views of books and members.
+
+Part 2: Responsibilities
+
+Book
+    Maintain details about the book (title, author, ISBN, status).
+    Update availability status when borrowed or returned.
+Member
+    Borrow books and ensure they do not exceed the borrowing limit.
+    Updates the system accordingly once books are returned
+Librarian
+    Add new books to the collection.
+    Remove outdated or lost books.
+    View a list of available and checked-out books.
+LibrarySystem
+    Track book availability and borrowing status.
+    Process borrow and return requests.
+    Generate reports on available and checked-out books.
+
+Part 3: Collaborators
+Book
+    Collaborates with Member: Updates availability when a member borrows/returns.
+    Collaborates with LibrarySystem: Keeps book records updated.
+Member
+    Collaborates with Book: Requests books for borrowing and returning.
+    Collaborates with LibrarySystem: Checks borrowing eligibility and records transactions.
+Librarian
+    Collaborates with LibrarySystem: Manages books and checks system records.
+    Collaborates with Book: Adds or removes books as necessary.
+LibrarySystem
+    Collaborates with Book: Updates records when books are borrowed or returned.
+    Collaborates with Member: Ensures borrowing policies are enforced.
+    Collaborates with Librarian: Provides information for managing the collection.
+

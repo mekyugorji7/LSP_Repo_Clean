@@ -1,0 +1,4 @@
+
+During lecture, I remember you speaking about the different ways software devlopers utilize design patterns to encapsulate a solution to common problems without "reinventing the wheel". A reason 
+why a design pattern may not be beneficial is because it could make the code harder to maintain as they are very complex to implement. While they do help make the code more flexible, you mentioned 
+how the average Java programmer may or may not be familiar with certain design patterns and if they were, it's a high level familiarity.
